@@ -1,7 +1,7 @@
 require 'torch'
 
-local examplepackage = {}
+local automatedparallelization = {}
 
-examplepackage.hellomodule = require 'examplepackage.hellomodule'
+automatedparallelization.hellomodule = require 'automatedparallelization.hellomodule'
 
-return examplepackage
+return automatedparallelization

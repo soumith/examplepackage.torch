@@ -1,17 +1,17 @@
-package = "examplepackage"
+package = "automatedparallelization"
 version = "scm-1"
 
 source = {
-   url = "git://github.com/soumith/examplepackage.torch",
+   url = "git://github.com/ngrabaskas/automatedparallelization.torch",
    tag = "master"
 }
 
 description = {
-   summary = "A hello-world for torch packages",
+   summary = "Automated Parallelization for Torch and TorchMPI",
    detailed = [[
-   	    A hello-world for torch packages
+   	    Automated Parallelization for Torch and TorchMPI
    ]],
-   homepage = "https://github.com/soumith/examplepackage.torch"
+   homepage = "https://github.com/ngrabaskas/automatedparallelization.torch"
 }
 
 dependencies = {
