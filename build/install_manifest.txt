@@ -1,0 +1,4 @@
+/home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/init.lua
+/home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/datamodule.lua
+/home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/nodemodule.lua
+/home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/test.lua
