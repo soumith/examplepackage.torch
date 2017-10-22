@@ -1,5 +1,5 @@
-luarocks remove automatedparallelization
+/home/ubuntu/torch/install/bin/luarocks remove automatedparallelization
 
-luarocks make
+cd /home/ubuntu/demos-master/AutomatedParallelization.torch/
 
-th test/test.lua
+/home/ubuntu/torch/install/bin/luarocks make 
