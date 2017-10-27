@@ -1,14 +1,8 @@
+-- Uses Torch NN
 require 'nn'
 
 -- Automated Parallelization
 example = require 'automatedparallelization'
-
-
--- TorchMPI
-require 'torchmpi'
-mpi = require('torchmpi')
-mpi.start(true)  --true equals use GPU
-
 
 -- Set CNN 
 model = nn.Sequential()
@@ -28,15 +22,12 @@ model:add(nn.Linear(200, 10))
 
 criterion = nn.ClassNLLCriterion()
 
--- TorchMPI
-mpinn = require('torchmpi.nn')
-mpinn.synchronizeParameters(model)
 
 -- Set Sample Dataset
 ----------------------------------------------------------------------
 -- get/create dataset
 --
-trsize = 100
+trsize = 101
 tesize = 25
 
 -- load dataset
@@ -71,21 +62,16 @@ testData.labels = testData.labels[{ {1,tesize} }]
 trainData.data = trainData.data:reshape(trsize,3,32,32)
 testData.data = testData.data:reshape(tesize,3,32,32)
 
--- Test Data Module
-if (mpi.rank() == 0) then
-	print ('--------Testing Data Module---------------')
+-- Testing data parallel module
+trainData.data, trainData.labels, newSize = example.datamodule.parallelize( trainData.data, trainData.labels, model, trsize) 
+
+-- run training test using new dataset
+for i = 1,newSize do 
+	local output = model:forward(trainData.data[i])
+	local df_do  = criterion:backward(output, trainData.labels[i])
+	model:backward(trainData.data[i], df_do)
 end
 
-mpi.barrier()
-
-trainData.data, trainData.labels, batchSize, newSize = example.datamodule.parallelize( trainData.data, trainData.labels, model, trsize ) 
-if (mpi.rank() == 0) then
-	print ('returned values:')
-	print ('batchSize = ', batchSize)
-	print ('dataset size = ', newSize)
-end
-
--- print(dataset.data[1])
 
 -- Test Node Model
 --print ('--------Testing Node Module---------------')
