@@ -1,0 +1,122 @@
+Checking stability of dependencies on the absence of
+automatedparallelization scm-1...
+
+Removing automatedparallelization scm-1...
+Removal successful.
+-- Found Torch7 in /home/ubuntu/torch/install
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/demos-master/AutomatedParallelization.torch/build
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/nodemodule.lua
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/datamodule.lua
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/init.lua
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/test.lua
+cmake -E make_directory build;
+cd build;
+cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="/home/ubuntu/torch/install/bin/.." -DCMAKE_INSTALL_PREFIX="/home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1"; 
+make
+   
+cd build && make install
+Updating manifest for /home/ubuntu/torch/install/lib/luarocks/rocks
+automatedparallelization scm-1 is now built and installed in /home/ubuntu/torch/install/ 
+
+Checking stability of dependencies on the absence of
+automatedparallelization scm-1...
+
+Removing automatedparallelization scm-1...
+Removal successful.
+-- Found Torch7 in /home/ubuntu/torch/install
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/demos-master/AutomatedParallelization.torch/build
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/init.lua
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/nodemodule.lua
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/datamodule.lua
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/test.lua
+cmake -E make_directory build;
+cd build;
+cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="/home/ubuntu/torch/install/bin/.." -DCMAKE_INSTALL_PREFIX="/home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1"; 
+make
+   
+cd build && make install
+Updating manifest for /home/ubuntu/torch/install/lib/luarocks/rocks
+automatedparallelization scm-1 is now built and installed in /home/ubuntu/torch/install/ 
+
+Checking stability of dependencies on the absence of
+automatedparallelization scm-1...
+
+Removing automatedparallelization scm-1...
+Removal successful.
+-- Found Torch7 in /home/ubuntu/torch/install
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/demos-master/AutomatedParallelization.torch/build
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/datamodule.lua
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/nodemodule.lua
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/init.lua
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/test.lua
+cmake -E make_directory build;
+cd build;
+cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="/home/ubuntu/torch/install/bin/.." -DCMAKE_INSTALL_PREFIX="/home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1"; 
+make
+   
+cd build && make install
+Updating manifest for /home/ubuntu/torch/install/lib/luarocks/rocks
+automatedparallelization scm-1 is now built and installed in /home/ubuntu/torch/install/ 
+
+Checking stability of dependencies on the absence of
+automatedparallelization scm-1...
+
+Removing automatedparallelization scm-1...
+Missing dependency for cudnn scm-1: luaffi 
+Missing dependency for sys 1.1-0: luaffi 
+Missing dependency for nngraph scm-1: luaffi 
+Missing dependency for xlua 1.0-0: luaffi 
+Missing dependency for ffmpeg 1.0-0: luaffi 
+Missing dependency for cunn scm-1: luaffi 
+Missing dependency for image 1.1.alpha-0: luaffi 
+Missing dependency for torchmpi scm-1: luaffi 
+Missing dependency for nnx 0.1-1: luaffi 
+Missing dependency for itorch scm-1: luaffi 
+Missing dependency for nn scm-1: luaffi 
+Missing dependency for camera 1.1-0: luaffi 
+Missing dependency for torchnet scm-1: luaffi 
+Removal successful.
+-- Found Torch7 in /home/ubuntu/torch/install
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/demos-master/AutomatedParallelization.torch/build
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/init.lua
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/datamodule.lua
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/nodemodule.lua
+-- Installing: /home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1/lua/automatedparallelization/test.lua
+cmake -E make_directory build;
+cd build;
+cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="/home/ubuntu/torch/install/bin/.." -DCMAKE_INSTALL_PREFIX="/home/ubuntu/torch/install/lib/luarocks/rocks/automatedparallelization/scm-1"; 
+make
+   
+cd build && make install
+Missing dependency for cudnn scm-1: luaffi 
+Missing dependency for sys 1.1-0: luaffi 
+Missing dependency for nngraph scm-1: luaffi 
+Missing dependency for xlua 1.0-0: luaffi 
+Missing dependency for ffmpeg 1.0-0: luaffi 
+Missing dependency for cunn scm-1: luaffi 
+Missing dependency for image 1.1.alpha-0: luaffi 
+Missing dependency for torchmpi scm-1: luaffi 
+Missing dependency for torchnet scm-1: luaffi 
+Missing dependency for nn scm-1: luaffi 
+Missing dependency for itorch scm-1: luaffi 
+Missing dependency for camera 1.1-0: luaffi 
+Missing dependency for nnx 0.1-1: luaffi 
+Updating manifest for /home/ubuntu/torch/install/lib/luarocks/rocks
+automatedparallelization scm-1 is now built and installed in /home/ubuntu/torch/install/ 
+

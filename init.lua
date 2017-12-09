@@ -1,7 +1,8 @@
 require 'torch'
 
-local examplepackage = {}
+local automatedparallelization = {}
 
-examplepackage.hellomodule = require 'examplepackage.hellomodule'
+automatedparallelization.datamodule  = require 'automatedparallelization.datamodule'
+automatedparallelization.nodemodule  = require 'automatedparallelization.nodemodule'
 
-return examplepackage
+return automatedparallelization
